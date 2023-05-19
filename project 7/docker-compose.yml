@@ -1,0 +1,7 @@
+version: '2'
+services:
+  webserver:
+    image: project7:latest
+    ports:
+      - 5001:5001/tcp
+ 

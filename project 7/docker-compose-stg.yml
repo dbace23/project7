@@ -1,0 +1,8 @@
+version: '2'
+services:
+  webserver:
+    images: project7:latest
+    ports:
+      - 5001:5001/tcp
+    volumes:
+      - ./:/app
